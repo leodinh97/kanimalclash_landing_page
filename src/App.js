@@ -1,7 +1,3 @@
-import HeaderComponent from './components/HeaderComponent';
-import SectionOneComponent from './components/SectionOneComponent';
-import SectionTwoComponent from './components/SectionTwoComponent';
-import SectionThreeComponent from './components/SectionThreeComponent';
 import SectionFourComponent from './components/SectionFourComponent';
 import SectionFiveComponent from "./components/SectionFiveComponent";
 import SectionSixComponent from "./components/SectionSixComponent";
@@ -9,6 +5,8 @@ import SectionSevenComponent from "./components/SectionSevenComponent";
 import FooterComponent from "./components/FooterComponent";
 import KCHeader from "./components/KCHeader";
 import KCSection1Main from "./components/KCSection1Main";
+import KCSection2Video from "./components/KCSection2Video";
+import KCSection3Parallax from "./components/KCSection3Parallax";
 
 function App() {
   return (
@@ -16,9 +14,11 @@ function App() {
         {/*<HeaderComponent/>*/}
         <KCHeader/>
         <KCSection1Main/>
+        <KCSection2Video/>
+        <KCSection3Parallax/>
         {/*<SectionOneComponent/>*/}
-        <SectionTwoComponent/>
-        <SectionThreeComponent/>
+        {/*<SectionTwoComponent/>*/}
+        {/*<SectionThreeComponent/>*/}
         <SectionFourComponent/>
         <SectionFiveComponent/>
         <SectionSixComponent/>

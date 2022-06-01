@@ -1,0 +1,114 @@
+#section_3 {
+    position: relative;
+    height: 120vh !important;
+    width: 100%;
+    /*background-color: cadetblue;*/
+
+    background-image: url('../assets/img/section3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Create the parallax scrolling effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.kc-section-3-title {
+    margin-top: 17vw;
+}
+
+.kc-section-3-sub-title {
+    margin-top: 1.5vw;
+}
+
+.kc-section3-body {
+    width: 35vw;
+    margin-top: 1.5vw;
+    text-align: center;
+}
+
+.section-3-imgs {
+    width: 60% !important;
+}
+
+#section_3 div.section-3-large-wrap-img {
+    /*width: 100% !important;*/
+}
+
+#section_3 img.section-3-large-img {
+    width: 100% !important;
+    height: auto;
+}
+
+/* overwrite */
+.kc-card {
+    border-radius: 0.5rem !important;
+    background-color: #262A32 !important;
+}
+.kc-card-title {
+    padding-top: 1rem;
+    color: #FFF068;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.kc-card-body {
+    height: 150px !important;
+    padding: 1rem 2rem !important;
+    overflow: hidden;
+    text-overflow: fade;
+}
+.kc-card-body:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+    background: linear-gradient(rgba(30, 32, 37, 0), #1E2025);
+}
+.card-img, .kc-card-img-top {
+    border-top-left-radius: calc(0.5rem - 1px) !important;
+    border-top-right-radius: calc(0.5rem - 1px) !important;
+}
+
+
+@media screen and (max-width: 900px) {
+    #section_3 {
+        background-image: url('../assets/img/mobile.png');
+        /* Create the parallax scrolling effect */
+        background-position: center;
+        z-index: 1;
+    }
+
+    .kc-section-3-title {
+        margin-top: 35vw;
+    }
+
+    .kc-section-3-sub-title {
+        margin-top: 1.5vw;
+    }
+
+    .kc-section3-body {
+        width: 85vw;
+        margin-top: 1.5vw;
+        text-align: center;
+    }
+
+    .section-3-imgs {
+        width: 100% !important;
+    }
+
+    .kc-card-title {
+        padding-top: 1rem;
+    }
+
+    .kc-card-body {
+        height: 100px !important;
+        padding: 1rem 1rem !important;
+    }
+
+}

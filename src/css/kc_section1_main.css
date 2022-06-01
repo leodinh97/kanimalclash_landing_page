@@ -1,11 +1,15 @@
+:root {
+    --kc-ratio-video-bg: 1.77777777778;
+}
+
 #section_1 {
-    position: relative;
-    height: 100vh !important;
     width: 100%;
+    position: relative;
     background-size: 100%;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
+    height: 100vh !important;
+    min-height: 100vh;
 }
 
 #section_1 > .kc-video-background {
@@ -39,7 +43,8 @@
 }
 
 .kc-section1-button {
-    font-size: 1.2125vw !important;
+    /*font-size: 1.2125vw !important;*/
+    font-size: 1rem !important;
     font-weight: bold !important;
     padding: 1.3vw 5.2vw !important;
     border-radius: 0.5vw !important;
@@ -55,9 +60,35 @@
 @media screen and (max-width: 900px){
     #section_1 {
         padding-top: 12vh;
+        /*height: max-content !important;*/
+        height: calc(100vw/var(--kc-ratio-video-bg) + 12vh + 16vw) !important;
+        min-height: unset !important;
     }
 
     #section_1 > .kc-video-caption {
-        top: unset;
+
+        /* trick */
+        /* calc(100vw/var(--kc-ratio-video-bg): height of video background */
+        /* 2vh                                : additional space between element */
+        /* 12vh                               : padding of parent element for device screen */
+        top: calc(100vw/var(--kc-ratio-video-bg) + 2vh + 12vh);
+
+        background-image: url("../assets/img/cloud.png");
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 12vw;
+        padding-bottom: 4vw;
     }
+
+    #section_1 > .kc-video-background > video {
+        height: unset;
+    }
+
+
+
 }
