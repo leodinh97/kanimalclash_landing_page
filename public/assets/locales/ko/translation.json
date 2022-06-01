@@ -1,0 +1,32 @@
+{
+  "nav_menu_nft_sale": "NFT 구매 ",
+  "nav_menu_marketplace": "마켓플레이스",
+  "nav_menu_ludena_protocol": "루데나 프로토콜",
+  "nav_menu_docs": "Docs",
+  "nav_btn_coming": "Coming soon",
+
+  "main_btn_mint": "Mint Now",
+
+  "kanimal_clash_title_kanimal_clash": "Kanimal Clash",
+  "kanimal_clash_sub": "P2E 실시간 전략 게임",
+  "kanimal_clash_body": "Kanimal Clash는 실시간 멀티플레이어 블록체인 게임입니다. 10,000개 이상의 개성 넘치는 캐릭터 NFT로 나만의 덱을 만들어 보세요! 각각의 캐릭터들은 독특한 스킬과 원소를 가지고 있습니다. 대결에 승리하여 토큰을 획득하고 Kanimal Clash NFT를 수집해보세요. 지금 바로 아레나에서 영광을 누려보세요!",
+  "kanimal_clash_battle_title": "배틀",
+  "kanimal_clash_battle_body": "PVP, 스토리 모드를 플레이해보세요! 대결에서 승리하면 엄청난 보상을 획득할 수 있어요!",
+  "kanimal_clash_breeding_title": "육성",
+  "kanimal_clash_breeding_body": "캐릭터 NFT를 번식시켜서 더 강한 덱을 구성해보세요! 강력한 NFT는 마켓플레이스에서 거래해보세요!",
+  "kanimal_clash_tournaments_title": "Tournament",
+  "kanimal_clash_tournaments_body": "매월 다른 유형의 토너먼트에 참여하고 P2E 보상 외에도 엄청난 보상을 받으세요!",
+
+  "collect_nfts_title": "Kanimal Clash NFT들을 수집하세요!",
+  "collect_nfts_sub": "10,000개 이상의 개성 넘치는 NFT",
+  "collect_nfts_body": "NFT 카드 8종을 모아 Kanimal Clash를 플레이하고 보상을 획득해보세요! NFT 캐릭터를 8가지 이상 보유한 사람에게는 놀라운 혜택이 기다리고 있습니다!",
+
+  "play2earn_title": "Play to Earn",
+  "play2earn_sub": "모험, 결투, 퀘스트 및 기여도를 통해서 보상 획득",
+  "play2earn_body": "Kanimal Clash는 플레이어가 게임에서 모험과 전투를 승리하기 위해 다양한 \n종류의 NFT들 수집하고 번식시킬 수 있습니다. 전투에서 승리하면 보상으로 유틸리티 토큰을 획득할 수 있고 더 강한 NFT를 만드는데 사용됩니다! 그리고 강력한 NFT들은 마켓플레이스에서 거래할 수 있습니다. ",
+
+  "story_body_p1": "서기 2152년, 인류의 새로운 황금기가 탄생했습니다. 첨단 기술과 항우울증 원더약의 등장으로 전 세계 사람들의 수명이 수백년이 늘어났고 동시에 극도로 지적이고 활기차게 해주었습니다.",
+  "story_body_p2": "거대한 정치적 힘을 가지고 이 과학적 돌파구를 이끄는 것은 수세기 동안 비밀리에 세계를 지배해 온 비밀 조직에 의해 운영되는 생명공학 회사인 H.I.P. 해피 이노베이션 제약회사입니다.",
+  "story_body_p3": "그러나 기술의 위업이 인류 문명을 멸망시키고 동물의 왕국을 탄생시켰을 때, 그들의 힘은 오래가지 못했습니다.",
+  "story_btn": "더 보기"
+}
