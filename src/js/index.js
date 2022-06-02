@@ -8,12 +8,13 @@ window.onload = function () {
     let sectionTwo = document.getElementById("section_2");
     let sticky = sectionTwo.offsetTop;
 
-    let sectionFive = document.getElementById("sectionFive");
+    let sectionFive = document.getElementById("section_5");
     let affect = sectionFive.offsetTop;
     let card1 = document.getElementById("effect-card1");
     let card2 = document.getElementById("effect-card2");
     let card3 = document.getElementById("effect-card3");
     let card4 = document.getElementById("effect-card4");
+    let flash = document.getElementById("effect-flash");
 
     function parallax() {
         // console.log('scroll Y: ' + window.scrollY)
@@ -37,6 +38,7 @@ window.onload = function () {
             card2.classList.add("effect-card2");
             card3.classList.add("effect-card3");
             card4.classList.add("effect-card4");
+            flash.classList.add("effect-flash");
         }
 
     }

@@ -18,21 +18,23 @@
 }
 
 .kc-section-3-title {
+    padding: 0 25vw;
     margin-top: 17vw;
 }
 
 .kc-section-3-sub-title {
+    padding: 0 20vw;
     margin-top: 1.5vw;
 }
 
 .kc-section3-body {
-    width: 35vw;
+    padding: 0 25vw;
     margin-top: 1.5vw;
     text-align: center;
 }
 
 .section-3-imgs {
-    width: 60% !important;
+    width: 65% !important;
 }
 
 #section_3 div.section-3-large-wrap-img {
@@ -85,17 +87,20 @@
     }
 
     .kc-section-3-title {
-        margin-top: 35vw;
+        margin-top: 40vw;
+        padding: 0 !important;
     }
 
     .kc-section-3-sub-title {
         margin-top: 1.5vw;
+        padding: 0 !important;
     }
 
     .kc-section3-body {
         width: 85vw;
         margin-top: 1.5vw;
         text-align: center;
+        padding: 0 !important;
     }
 
     .section-3-imgs {

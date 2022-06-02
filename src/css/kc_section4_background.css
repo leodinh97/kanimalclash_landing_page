@@ -1,0 +1,36 @@
+#section_4 {
+    position: relative;
+    height: 99vh;
+    width: 100%;
+    background-color: black;
+    z-index: 0;
+}
+
+@media screen and (max-height: 920px) {
+    #section_4 {
+        height: 80vh;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 768px) {
+    #section_4 {
+        height: 80vh;
+    }
+}
+
+@media (orientation: portrait) and (max-height: 690px) {
+    #section_4 {
+        height: 145vh;
+    }
+}
+@media (orientation: portrait) and (min-height: 691px) and (max-height: 750px) {
+    #section_4 {
+        height: 115vh;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 751px) and (max-height: 850px) {
+    #section_4 {
+        height: 90vh;
+    }
+}

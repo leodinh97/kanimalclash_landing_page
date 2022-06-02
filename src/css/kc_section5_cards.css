@@ -1,0 +1,99 @@
+#section_5 {
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    z-index: 0;
+    background-color: black;
+}
+.kc-section-5-title {
+    padding: 0 25vw !important;
+    margin-top: 5vw !important;
+}
+.kc-section-5-sub-title {
+    padding: 0 20vw !important;
+    margin-top: 1.5vw !important;
+}
+.kc-section-5-body {
+    padding: 0 25vw !important;
+    margin-top: 1.5vw !important;
+    text-align: center;
+}
+
+.kc-section-5-wrap-cards {
+    padding: 0 30% !important;
+    margin: 5vw 0 !important;
+    height: 30vw;
+}
+
+.kc-section-5-wrap-cards div.section-5-card-item {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%) scale(0.8);
+}
+
+.section-5-card-item {
+
+}
+
+
+.kc-section-5-wrap-cards div.section-5-card-item .effect-card1 {
+    transform: matrix(0.65,-0.20336832106113434,0.20336832106113434,0.65,-240, 90);
+    transition: all 0.5s;
+}
+
+.kc-section-5-wrap-cards div.section-5-card-item .effect-card2 {
+    transform: matrix(0.8,-0.07821723073720932,0.07821723073720932,0.8,-75,30);
+    transition: all 0.5s;
+}
+
+.kc-section-5-wrap-cards div.section-5-card-item .effect-card3 {
+    transform: matrix(0.7,0.05821723073720932,-0.05821723073720932,0.7,120,50);
+    transition: all 0.5s;
+}
+
+.kc-section-5-wrap-cards div.section-5-card-item .effect-card4 {
+    transform: matrix(0.65,0.1753655630350113,-0.1753655630350113,0.65,270,97);
+    transition: all 0.5s;
+}
+
+.kc-section-5-wrap-cards div#effect-card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -30%) scale(0.8);
+}
+.kc-section-5-wrap-cards .effect-flash {
+    /*transform: matrix(0.8,0,0,0.8,-180,-60);*/
+    /*transition: all 0.5s;*/
+}
+
+
+@media screen and (max-width: 900px) {
+    #section_5 {
+        height: 150vw;
+    }
+
+    .kc-section-5-title {
+        padding: 0 5vw !important;
+    }
+    .kc-section-5-sub-title {
+        padding: 0 5vw !important;
+    }
+    .kc-section-5-body {
+        padding: 0 5vw !important;
+    }
+    .kc-section-5-wrap-cards {
+        padding: 0 !important;
+        height: 80vw;
+    }
+
+    .kc-section-5-wrap-cards div.section-5-card-item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -35%) scale(0.5);
+    }
+    .kc-section-5-wrap-cards div#effect-card {
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -15%) scale(0.9);
+    }
+}

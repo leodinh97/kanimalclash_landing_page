@@ -42,8 +42,8 @@ section {
 
 @media screen and (max-width: 900px) {
     .kc-section-title {
-        font-size: 3rem;
-        line-height: 3rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
         font-weight: bold;
     }
 
@@ -103,7 +103,7 @@ nav > ul {
 .items_dropdown_language {
     padding: 0 !important;
     color: #1E2025 !important;
-    font-size: 1.1vw !important;
+    font-size: 1rem !important;
     font-weight: lighter !important;
 }
 
