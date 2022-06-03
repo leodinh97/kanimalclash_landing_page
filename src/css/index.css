@@ -58,6 +58,9 @@ section {
         line-height: 1rem;
         font-weight: bold;
     }
+    .logo-footer {
+        width: 45vw !important;
+    }
 }
 
 
