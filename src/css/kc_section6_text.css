@@ -16,6 +16,10 @@
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
 }
 
 .kc-section-6-title {

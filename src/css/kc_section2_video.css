@@ -37,6 +37,7 @@
 @media screen and (max-width: 900px) {
     #section_2 {
         height: calc(100vw/var(--kc-ratio-video-bg)) !important;
+        margin-top: 10vw;
     }
 
     .background-video-section-2 {

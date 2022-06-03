@@ -17,6 +17,7 @@ export default function KCSection1Main() {
 
             <div className="kc-video-caption">
                 <button type="button" className="btn btn-dark kc-section1-button">{t('main_btn_mint')}</button>
+                <button className="btn btn-white kc-section1-button">{t('nav_btn_coming')}</button>
             </div>
         </section>
     )

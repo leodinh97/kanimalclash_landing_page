@@ -26,6 +26,10 @@
     .kc-navbar-color {
         background-color: #1E2025 !important;
     }
+
+    .kc-navbar-collapse > div > button {
+        display: none;
+    }
 }
 
 /* custom navbar-toggler*/

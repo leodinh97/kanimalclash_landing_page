@@ -1,7 +1,3 @@
-import SectionFourComponent from './components/SectionFourComponent';
-import SectionFiveComponent from "./components/SectionFiveComponent";
-import SectionSixComponent from "./components/SectionSixComponent";
-import SectionSevenComponent from "./components/SectionSevenComponent";
 import FooterComponent from "./components/FooterComponent";
 import KCHeader from "./components/KCHeader";
 import KCSection1Main from "./components/KCSection1Main";
