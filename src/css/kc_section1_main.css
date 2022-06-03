@@ -49,6 +49,8 @@
 
 .kc-section1-button {
     /*font-size: 1.2125vw !important;*/
+    width: calc(100% - 80vw);
+    margin: 0 auto;
     font-size: 1rem !important;
     font-weight: bold !important;
     padding: 1.3vw 5.2vw !important;
@@ -88,6 +90,8 @@
         align-items: center;
         padding-top: 8vw;
         padding-bottom: 8vw;
+        display: flex;
+        flex-direction: column;
     }
 
     #section_1 > .kc-video-background > video {
@@ -95,7 +99,8 @@
     }
 
     .kc-section1-button {
-        width: calc(100% - 16vw);
+        width: calc(100% - 64vw);
+        margin: 0 0;
     }
     .kc-video-caption button {
         margin: 1vw 0 !important;

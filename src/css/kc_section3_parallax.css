@@ -35,6 +35,7 @@
 
 .section-3-imgs {
     width: 65% !important;
+    background-color: black;
 }
 
 #section_3 div.section-3-large-wrap-img {
@@ -113,7 +114,7 @@
 
     .kc-card-body {
         height: 100px !important;
-        padding: 1rem 1rem !important;
+        padding: 1rem 2rem !important;
     }
 
 }

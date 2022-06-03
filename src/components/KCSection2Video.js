@@ -1,5 +1,7 @@
 import React from "react";
 import '../css/kc_section2_video.css';
+import '../css/index.css';
+import '../js/index.js';
 import VideoTeaserGame from "../assets/video/Kanimal-Clash-P2E-Game-Official-Teaser.mp4";
 
 export default function KCSection2Video() {
