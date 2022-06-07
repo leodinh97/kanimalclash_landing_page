@@ -88,7 +88,7 @@ export default function KCHeader() {
                             </li>
                         </ul>
                         <div className="ms-auto text-center">
-                            <button className="btn btn-white">{t('nav_btn_coming')}</button>
+                            <button className="btn btn-white kc-header-btn">{t('nav_btn_coming')}</button>
                         </div>
                     </div>
                 </div>

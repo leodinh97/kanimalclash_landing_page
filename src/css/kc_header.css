@@ -58,3 +58,9 @@
     font-weight: bold !important;
     padding: 1rem !important;
 }
+
+.kc-header-btn {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    border-radius: 0.5vw !important;
+}

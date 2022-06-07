@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/kc_section6_text.css";
-import TreasurePlay2EarnVideo from "../assets/video/Treasure-of-collapsed-ver-3.mp4";
+import TreasurePlay2EarnVideo from "../assets/video/Treasure-of-collapsed-ver-4.mp4";
 import {useTranslation} from "react-i18next";
 
 export default function KCSection6Text() {

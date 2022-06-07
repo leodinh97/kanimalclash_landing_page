@@ -1,3 +1,7 @@
+:root {
+    --kc-tan80-image-bg: 9.00365494561;
+}
+
 #section_3 {
     position: relative;
     height: 120vh !important;
@@ -19,7 +23,7 @@
 
 .kc-section-3-title {
     padding: 0 25vw;
-    margin-top: 17vw;
+    margin-top: calc((100%/2)/var(--kc-tan80-image-bg) + 27vh);
 }
 
 .kc-section-3-sub-title {

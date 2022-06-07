@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/kc_section3_parallax.css';
 import {useTranslation} from "react-i18next";
-import ImageCard from "../assets/img/Fighting.png";
+import ImageCard from "../assets/img/Fighting1.png";
 import ImageCard1 from '../assets/img/sword.png'
 import ImageCard2 from '../assets/img/Capsule1.png'
 import ImageCard3 from '../assets/img/tournament.png'
