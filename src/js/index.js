@@ -6,42 +6,33 @@ let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 $(document).ready(function() {
-    window.onload = function () {
-
-    let sectionTwo = document.getElementById("section_2");
-    let sticky = sectionTwo.offsetTop;
-
-    let sectionFive = document.getElementById("section_5");
-    let affect = sectionFive.offsetTop;
-    let card1 = document.getElementById("effect-card1");
-    let card2 = document.getElementById("effect-card2");
-    let card3 = document.getElementById("effect-card3");
-    let card4 = document.getElementById("effect-card4");
-    let flash = document.getElementById("effect-flash");
+    // window.onload = function () {
 
     function parallax() {
         // console.log('scroll Y: ' + window.scrollY)
         // console.log('sticky: ' + sticky)
-        if (window.scrollY + 12*vh >= sticky) {
-            sectionTwo.classList.add("sticky");
+        if ((window.scrollY + 12*vh) >= document.getElementById("section_2").offsetTop) {
+
+            if (!document.getElementById("section_2").classList.contains("sticky")) {
+                document.getElementById("section_2").classList.add("sticky")
+            }
         }
-        if (window.scrollY + 12*vh < sticky) {
-            sectionTwo.classList.remove("sticky");
+        if ((window.scrollY + 12*vh) < document.getElementById("section_2").offsetTop) {
+            document.getElementById("section_2").classList.remove("sticky");
         }
     }
 
-    let imgCard = document.getElementById("effect-card")
     function effectCard() {
         // console.log("affect: " + affect)
-        if (window.scrollY + (window.innerHeight/4) >= affect) {
-            imgCard.classList.remove("effect-card-out");
-            imgCard.classList.add("effect-card-in");
+        if (window.scrollY + (window.innerHeight/4) >= document.getElementById("section_5").offsetTop) {
+            document.getElementById("effect-card").classList.remove("effect-card-out");
+            document.getElementById("effect-card").classList.add("effect-card-in");
 
-            card1.classList.add("effect-card1");
-            card2.classList.add("effect-card2");
-            card3.classList.add("effect-card3");
-            card4.classList.add("effect-card4");
-            flash.classList.add("effect-flash");
+            document.getElementById("effect-card1").classList.add("effect-card1");
+            document.getElementById("effect-card2").classList.add("effect-card2");
+            document.getElementById("effect-card3").classList.add("effect-card3");
+            document.getElementById("effect-card4").classList.add("effect-card4");
+            document.getElementById("effect-flash").classList.add("effect-flash");
         }
 
     }
@@ -57,6 +48,6 @@ $(document).ready(function() {
         console.log("click");
         // document.getElementById("dropdownLanguageBtn").html(document.querySelector(this).querySelector('a').html());
     });
-}
+// }
 });
 

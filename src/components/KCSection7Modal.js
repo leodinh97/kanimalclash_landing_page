@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/kc_section7_modal.css";
 import {useTranslation} from "react-i18next";
-import Section7BackgroundImage from "../assets/img/old-city-_-new-city.png"
+import Section7BackgroundImage from "../assets/img/story_bg.jpg"
 
 export default function KCSection7Modal() {
 
@@ -13,7 +13,7 @@ export default function KCSection7Modal() {
                 <img src={Section7BackgroundImage} alt="" className="kc-section-7-bg-img"/>
             </div>
             <div className="position-absolute container kc-section-7-wrap-text">
-                <div className="row">
+                <div className="row kc-section-7-text">
                     <div className="col-12 kc-section-title kc-section-7-title">
                         Story
                     </div>

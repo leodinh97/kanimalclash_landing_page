@@ -3,6 +3,7 @@ import {useTranslation} from "react-i18next";
 import Logo from "../assets/img/logo.png";
 import '../css/kc_header.css';
 import i18next from "i18next";
+import JsCookie from "js-cookie";
 
 const languages = [
     {
@@ -20,7 +21,14 @@ const languages = [
 export default function KCHeader() {
 
     const {t} = useTranslation()
-    const initialLang = 'Languages';
+    let initialLang = 'English'
+    const langCookie = JsCookie.get('i18next')
+    // eslint-disable-next-line array-callback-return
+    languages.forEach(l => {
+        if (l.code === langCookie) {
+            initialLang = l.name;
+        }
+    })
     const [langText, setLangText] = useState(initialLang);
 
     return (
@@ -65,7 +73,8 @@ export default function KCHeader() {
                                         {languages.map(({code, name, country_code}) => (
                                             <a key={country_code} className="dropdown-item" href="">
                                                 <button className="dropdown-item items_dropdown_language"
-                                                        onClick={() => {
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
                                                             i18next.changeLanguage(code);
                                                             setLangText(name);
                                                         }}>

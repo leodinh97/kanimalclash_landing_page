@@ -12,10 +12,6 @@ import './js/index.js';
 import './assets/font/jadil/Jaldi-Bold.ttf';
 import './assets/font/jadil/Jaldi-Regular.ttf';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'jquery/dist/jquery.js';
-// import '@popperjs/core/dist/umd/popper.js'
-// import 'bootstrap/dist/js/bootstrap.js';
-// import 'bootstrap/dist/js/bootstrap.bundle.js';
 
 i18n
     .use(initReactI18next) // passes i18n down to react-i18next
