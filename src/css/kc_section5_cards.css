@@ -59,7 +59,7 @@
 .kc-section-5-wrap-cards div#effect-card {
     top: 50%;
     left: 50%;
-    transform: translate(-65%, -30%) scale(0.8);
+    transform: translate(-65%, -30%) scale(0.7);
 }
 .kc-section-5-wrap-cards .effect-flash {
     /*transform: matrix(0.8,0,0,0.8,-180,-60);*/

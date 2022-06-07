@@ -30,19 +30,19 @@ export default function KCSection5Cards() {
                         <div className='container justify-content-center'>
 
                             <div className="position-absolute section-5-card-item ">
-                                <img id="effect-card4" width="358px" height="538px" preserveAspectRatio="xMidYMid slice"
+                                <img id="effect-card4" height="538px" preserveAspectRatio="xMidYMid slice"
                                      src={card4} className=""></img>
                             </div>
                             <div className="position-absolute section-5-card-item">
-                                <img id="effect-card1" width="358px" height="538px" preserveAspectRatio="xMidYMid slice"
+                                <img id="effect-card1" height="538px" preserveAspectRatio="xMidYMid slice"
                                      src={card1} className=""></img>
                             </div>
                             <div className="position-absolute section-5-card-item">
-                                <img id="effect-card3" width="358px" height="538px" preserveAspectRatio="xMidYMid slice"
+                                <img id="effect-card3" height="538px" preserveAspectRatio="xMidYMid slice"
                                      src={card3} className=""></img>
                             </div>
                             <div className="position-absolute section-5-card-item">
-                                <img id="effect-card2" width="358px" height="538px" preserveAspectRatio="xMidYMid slice"
+                                <img id="effect-card2" height="538px" preserveAspectRatio="xMidYMid slice"
                                      src={card2} className=""></img>
                             </div>
 
