@@ -51,6 +51,6 @@
     }
 
     .sticky {
-        top: 12vh !important;
+        top: -1px !important;
     }
 }
