@@ -11,7 +11,7 @@ export default function KCSection2Video() {
             <div className='justify-content-center align-item-center background-video-section-2'>
                 {/*<img src={VideoBackground} alt=""/>*/}
                 <div className='video-layout'>
-                    <video autoPlay loop playsInline controls muted>
+                    <video autoPlay loop playsInline controls muted id="kc-sc2-video">
                         <source src={VideoTeaserGame} type='video/mp4'></source>
                     </video>
                 </div>

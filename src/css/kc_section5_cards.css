@@ -97,3 +97,24 @@
         transform: translate(-80%, -15%) scale(0.9);
     }
 }
+
+@media (min-width: 1800px) {
+    #section_5 {
+        height: 40vw !important;
+    }
+    .kc-section-5-title {
+        padding: 0 5vw !important;
+    }
+    .kc-section-5-sub-title {
+        padding: 0 5vw !important;
+    }
+    .kc-section-5-body {
+        padding: 0 5vw !important;
+    }
+    .kc-section-5-wrap-cards {
+        padding: 0 30% !important;
+        margin: unset !important;
+        height: 20vw;
+    }
+
+}

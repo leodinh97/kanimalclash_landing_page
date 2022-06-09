@@ -34,3 +34,10 @@
         height: 90vh;
     }
 }
+
+@media (min-width: 1800px) {
+    #section_4 {
+        margin-top: -25vh;
+        height: 65vh;
+    }
+}

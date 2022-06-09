@@ -27,7 +27,8 @@
 }
 
 .kc-section-6-sub-title {
-    margin-top: 1.5vw !important;
+    margin: 1.5vw auto 0 !important;
+    width: 80% !important;
 }
 
 .kc-section-6-body {
@@ -43,5 +44,11 @@
 
     .kc-section-6-body {
         width: 100% !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    #section_6 {
+        height: 70vh !important;
     }
 }

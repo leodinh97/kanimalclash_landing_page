@@ -8,6 +8,13 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 $(document).ready(function() {
     // window.onload = function () {
 
+    function playVideo() {
+
+        if ((window.scrollY + (window.innerHeight/4)) >= document.getElementById("section_2").offsetTop) {
+            document.getElementById("kc-sc2-video").play();
+        }
+    }
+
     function parallax() {
         // console.log('scroll Y: ' + window.scrollY)
         // console.log('sticky: ' + sticky)
@@ -41,6 +48,7 @@ $(document).ready(function() {
     window.onscroll = function() {
         parallax();
         effectCard();
+        playVideo();
     };
 
     // Script for dropdown menu change language

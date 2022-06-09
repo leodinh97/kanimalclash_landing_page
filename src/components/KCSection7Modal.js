@@ -17,15 +17,21 @@ export default function KCSection7Modal() {
                     <div className="col-12 kc-section-title kc-section-7-title">
                         Story
                     </div>
-                    <div className="col-12 kc-section-body kc-section-7-body">
+                    <div id="style-2" className="col-12 kc-section-body kc-section-7-body">
                         {t('story_body_p1')}
-                    </div>
-                    <div className="col-12 kc-section-body kc-section-7-body">
+                        <br/>
+                        <br/>
                         {t('story_body_p2')}
-                    </div>
-                    <div className="col-12 kc-section-body kc-section-7-body">
+                        <br/>
+                        <br/>
                         {t('story_body_p3')}
                     </div>
+                    {/*<div className="col-12 kc-section-body kc-section-7-body">*/}
+                    {/*    {t('story_body_p2')}*/}
+                    {/*</div>*/}
+                    {/*<div className="col-12 kc-section-body kc-section-7-body">*/}
+                    {/*    {t('story_body_p3')}*/}
+                    {/*</div>*/}
 
                     <div className='position-absolute kc-section-7-btn'>
                         <button onClick={(e) => {

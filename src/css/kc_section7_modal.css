@@ -27,7 +27,7 @@ img.kc-section-7-bg-img {
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 4vh;
-    width: 30% !important;
+    width: 25% !important;
     height: calc(100vw/var(--kc-ratio-story-image-bg)*85/100);
     text-align: center;
 }
@@ -43,6 +43,10 @@ img.kc-section-7-bg-img {
 
 .kc-section-7-body {
     margin-top: 1.5vw !important;
+    overflow: scroll;
+    max-height: calc(100vw/var(--kc-ratio-story-image-bg)*85/100 - 5vh - 2.4vw - 1rem - 5vh - 3rem - 1.5vw - 1rem) !important;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .kc-section-7-btn {
@@ -86,4 +90,33 @@ img.kc-section-7-bg-img {
     .kc-section-7-text {
         max-height: unset !important;
     }
+    .kc-section-7-body {
+        max-height: unset !important;
+    }
+}
+
+
+/*
+ *  STYLE 2
+ */
+
+#style-2::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+    width: 12px;
+    /*background-color: #F5F5F5;*/
+    display: none;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #1E2025;
 }
