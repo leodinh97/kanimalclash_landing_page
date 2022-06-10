@@ -32,7 +32,7 @@
 }
 
 .kc-section3-body {
-    padding: 0 25vw;
+    padding: 0 28vw;
     margin-top: 1.5vw;
     text-align: center;
 }
@@ -124,6 +124,10 @@
     .kc-card-body {
         height: 100px !important;
         padding: 1rem 2rem !important;
+    }
+
+    .kc-character-1, .kc-character-2 {
+        display: none;
     }
 
 }

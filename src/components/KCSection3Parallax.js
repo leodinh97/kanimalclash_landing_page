@@ -5,6 +5,8 @@ import ImageCard from "../assets/img/Fighting1.png";
 import ImageCard1 from '../assets/img/sword.png'
 import ImageCard2 from '../assets/img/Capsule1.png'
 import ImageCard3 from '../assets/img/tournament.png'
+import KCCharacter1 from "../assets/img/kc-character1.png";
+import KCCharacter2 from '../assets/img/kc-character2.png'
 
 export default function KCSection3Parallax() {
 
@@ -63,6 +65,13 @@ export default function KCSection3Parallax() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="position-absolute kc-character-1">
+                <img src={KCCharacter1} alt=''/>
+            </div>
+            <div className="position-absolute kc-character-2">
+                <img src={KCCharacter2} alt=''/>
             </div>
 
         </section>
